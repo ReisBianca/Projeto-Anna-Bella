@@ -1,0 +1,107 @@
+
+/*Zerando formatações da página*/
+
+*{margin:0; padding: 0;}
+
+html, body{
+	float: left;
+	width: 100%;
+	height: 100%;
+}
+
+body{
+	background-image: url(Imagens/fundo.png);
+	background-repeat: repeat;
+	font-family: arial, sans-serif;
+}
+
+header{
+	float: left;
+	width: 65%;
+	min-height: 25%;
+}
+
+#capa_home{
+	float: left;
+	width: 100%;
+	height: auto;
+}
+
+nav{
+	float: left;
+	width: 100%;
+	height: 100px;
+	background-color: #FDFBED;
+}
+
+#menu{
+	float: left;
+	width: auto;
+	height: 50px;
+	margin-left: 30px;
+	margin-top: 40px;
+	display: inline;
+	font-size: 1.1em;
+	text-decoration: none;
+	list-style: none;
+}
+
+#menu li{
+	float: left;
+	width: auto;
+	height: auto;
+}
+
+#menu li a{
+	float: left;
+	text-decoration: none;
+	font-weight: bold;
+	color: #4C4D3A;
+
+}
+
+.traço{
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+main{
+	float: left;
+	width: 65%;
+	min-height: 65%;
+	background-color: #FDFBED;
+}
+
+#titulo{
+	margin-left: 30px;
+	font-size: 1.3em;
+	color: #88897B;
+}
+
+.paragrafos{
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+.img_publicidade{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 30px;
+	border: 10px solid #D1D0B8;
+}
+
+footer{
+	float: left;
+	width: 65%;
+	min-height: 10%; 
+	background-color: #4C4D3A;
+}
+
+#paragrafo_rodape{
+	margin-left: 40%;
+	margin-top: 3.5%;
+	color: #FDFBED;
+}
+
+
